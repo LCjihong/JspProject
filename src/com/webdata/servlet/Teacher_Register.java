@@ -15,7 +15,7 @@ import com.webdata.service.impl.WebdataServiceImpl;
  * Servlet implementation class Teacher_Register
  */
 @SuppressWarnings("serial")
-@WebServlet("/Regist_Tea")
+@WebServlet("/Register_Tea")
 public class Teacher_Register extends HttpServlet {
 	
 	private WebdataService webdataservice = new WebdataServiceImpl();
